@@ -1,0 +1,16 @@
+.row {
+    justify-content: space-around;
+}
+
+.todo-wrap {
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.todoDone {
+    background-color: green !important;
+    color: green;
+    text-decoration: line-through;
+  }
+  

@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" [ngStyle]="{'display':'flex', 'justify-content':'center'}">
+            <div class="header">
+                <input type="text" class="addField" [(ngModel)]="todoName" placeholder="Введите задачу">
+                <i class="material-icons" [ngStyle]="{'margin': '0 20px'}">keyboard_tab</i>
+                <button class="addBtn" (click)="addTodo()">Создать новую задачу</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
